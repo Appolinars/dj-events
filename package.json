@@ -9,12 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cookie": "^0.4.1",
+    "moment": "^2.29.1",
     "next": "11.0.1",
+    "node-sass": "^4.14.1",
+    "qs": "^6.10.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-icons": "^4.2.0",
+    "react-map-gl": "^6.1.17",
+    "react-toastify": "^8.0.2"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^4.28.5",
     "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4"
   }
 }

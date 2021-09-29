@@ -1,3 +1,20 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "extends": ["next", "next/core-web-vitals"],
+  "settings": { 
+    "import/resolver": {
+      "typescript": {},
+      "alias": {
+        "map": [
+          ["components", "./components"],
+          ["styles", "./styles"]
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export": "off",
+    "jsx-a11y/alt-text": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
 }
