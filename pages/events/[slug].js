@@ -39,7 +39,7 @@ const EventPage = ({evt}) => {
       </Layout>
     );
 }
-
+// Doesn't work in production
 // export const getStaticProps = async (ctx) => {
 
 //     const res = await fetch(`${API_URL}/events?slug=${ctx.params.slug}`)
